@@ -1,0 +1,134 @@
+/* ---------------------------------------------------------
+   BODY
+   --------------------------------------------------------- */
+
+BODY {
+  color:            #203a8d;
+  background-color:     #FFFFFF;
+  background-repeat: repeat-y;
+
+  font-family:      verdana, helvetica, sans-serif;
+  font-style:       normal;
+  font-variant:     normal;
+  font-size:     90%;
+  margin: 0;
+  padding:0;
+}
+
+P, FORM, DIV, BLOCKQUOTE, OL {
+  color:            #203a8d;
+
+  font-family:      verdana, helvetica, sans-serif;
+  font-style:       normal;
+  font-variant:     normal;
+  font-size:     90%;
+  margin: 0;
+  margin: 0;
+  
+}
+
+TABLE {
+
+  background-repeat: no-repeat;
+
+}
+
+TD {
+  font-family:      verdana, helvetica, sans-serif;
+  font-style:       normal;
+  font-variant:     normal;
+  font-size:     90%;
+}
+
+
+
+/* ---------------------------------------------------------
+   FORMS
+   --------------------------------------------------------- */
+
+form fieldset {
+  padding: 10px;
+  margin: 10px;
+}
+
+form fieldset label {
+  clear: both;
+  margin: 2px 10px;
+  display: block; 
+  float: left; 
+  vertical-align: top; 
+  width: 110px; 
+  text-align: right;
+}
+
+form fieldset span {
+  padding: 0 4px;
+}
+
+form fieldset.inner {
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+form fieldset input, form fieldset textarea, form fieldset select {
+  margin: 0 0 4px 0;
+}
+
+
+input.submitbutton {
+  margin: 20px;
+}
+
+
+
+/* ---------------------------------------------------------
+   HEADERS
+   --------------------------------------------------------- */
+
+H1 {
+  line-height: 120%;
+  font-size: 110%;
+  color:       #02448D;
+}
+
+H2 {
+  line-height: 120%;
+  font-size: 130%;
+  color:       #02448D;
+}
+
+H3 {
+  color:       #02448D;
+}
+
+H4 {
+  line-height: 140%;
+}
+
+HR {
+  height: 1px;
+  border: none;
+  background-color: #003334;
+  color: #003334;
+}
+
+/* ---------------------------------------------------------
+   LINKS 
+   --------------------------------------------------------- */
+
+A, A:active {
+  text-decoration: none;
+  color: #24499a;
+}
+
+A:hover { 
+  text-decoration: underline;
+  color: #24499a;
+}
+
+
+.tabbed{
+text-indent:-12px;
+}

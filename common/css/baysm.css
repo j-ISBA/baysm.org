@@ -1,0 +1,143 @@
+div#everything {
+ width:		1000px;
+ margin-left:	auto;
+ margin-right:	auto;
+ color:		#F00000;
+ text-align:	left;
+}
+
+table#sidebar {
+ font-size:	90%;
+}
+
+img#tinylogos {
+ border:	6px solid transparent;
+}
+
+img#largelogos {
+ border:	30px solid transparent;
+}
+
+BODY {
+  text-align:		center; 
+  color:		#003366;
+  background-color:	#FFFFFF;
+  font-family:		verdana, helvetica, sans-serif;
+  font-style:		normal;
+  font-variant:		normal;
+  font-size:		100%;
+  margin:		0;
+  padding:		0;
+}
+
+form fieldset {
+  padding: 10px;
+  margin: 10px;
+}
+
+form fieldset label {
+  clear: both;
+  margin: 2px 10px;
+  display: block; 
+  float: left; 
+  vertical-align: top; 
+  width: 110px; 
+  text-align: right;
+}
+
+form fieldset span {
+  padding: 0 4px;
+}
+
+form fieldset.inner {
+  border: 0;
+  border-bottom: 1px solid #aaa;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+form fieldset input, form fieldset textarea, form fieldset select {
+  margin: 0 0 4px 0;
+}
+
+
+input.submitbutton {
+  margin: 20px;
+}
+
+ol {
+  margin: 5;
+}
+
+ul {
+  margin: 5;
+}
+
+
+/* ---------------------------------------------------------
+   HEADERS
+   --------------------------------------------------------- */
+
+H1 {
+  line-height: 140%;
+  font-size: 150%;
+}
+
+H2 {
+  line-height: 120%;
+  font-size: 130%;
+}
+
+H3 {
+ font-size: 110%;
+}
+
+H4 {
+  font-size:		110%;
+  margin-bottom:	5px;
+}
+
+HR {
+  height: 1px;
+  border: none;
+}
+
+/* ---------------------------------------------------------
+   LINKS 
+   --------------------------------------------------------- */
+
+A {
+  text-decoration:	underline;
+  color:		#003366;
+}
+
+A:hover { 
+  text-decoration:	underline;
+  color:		#336699;
+}
+
+A:active {
+  text-decoration:	underline;
+  color:		#003366;
+}
+
+.imglink {
+  border:	0;
+ }
+
+.active {
+  color:		#003366;
+  background-color:	#CCCCCC;
+}
+
+.tabbed{
+text-indent: -1em;
+}
+
+.tabbed_prog{
+text-indent: -12px;
+}
+
+.clear			{ clear:both; }
+.photo-link		{ padding:5px; margin:5px; border:1px solid #ccc; display:block; width:220px; float:left; }
+.photo-link:hover	{ border-color:#999; }
